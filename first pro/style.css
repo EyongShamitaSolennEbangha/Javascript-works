@@ -1,0 +1,145 @@
+body {
+  background-color: rgb(229, 250, 216);
+}
+
+.overall {
+  background-color: white;
+  border-radius: 0.7rem;
+  margin: auto;
+  width: 880px;
+  height: auto;
+}
+
+.header {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.names {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1rem;
+  line-height: 40px;
+}
+.names div input {
+  width: 350px;
+  height: 7px;
+  border-radius: 0.5rem;
+  padding: 20px 20px 20px 20px;
+}
+.email {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  line-height: 40px;
+}
+.email input {
+  width: 790px;
+  height: 7px;
+  border-radius: 0.5rem;
+  padding: 20px 20px 20px 20px;
+}
+
+.type {
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
+}
+.type input {
+  width: 490px;
+  height: 37px;
+  border-radius: 0.5rem;
+  margin-top: 30px;
+}
+#id5 {
+  margin-top: 70px;
+}
+.message {
+  margin-top: 30px;
+  margin-left: 30px;
+  line-height: 40px;
+}
+.message #id6 {
+  width: 790px;
+  height: 87px;
+  border-radius: 0.5rem;
+  resize: vertical;
+  padding: 20px 20px 20px 20px;
+}
+.main {
+  margin-top: 30px;
+  margin-left: 30px;
+  display: flex;
+  gap: 20px;
+}
+.btn {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+#id7 {
+  background-color: rgb(1, 80, 60);
+  color: white;
+  width: 790px;
+  height: 47px;
+  border-radius: 0.5rem;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 30px;
+}
+.popup {
+  width: 400px;
+  background: white;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transfrom 0.4s, top 0.4s;
+}
+.open-popup {
+  visibility: visible;
+  top: 50%;
+  transform: ranslate(-50%, -50%) scale(1);
+}
+
+.id11 {
+  display: flex;
+  gap: 2.5px;
+  align-items: center;
+  border: 2px solid black;
+  width: 380px;
+  padding: 0.4rem 0.4rem;
+  display: flex;
+  margin-top: 30px;
+  border-radius: 0.5rem;
+}
+.id11 #id4 {
+  margin: 0;
+  height: 1rem;
+  width: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+#pitch {
+  visibility: hidden;
+}
+
+.error {
+    color: red;
+    font-size: 0.875em;
+}
+.hidden {
+    display: none;
+}

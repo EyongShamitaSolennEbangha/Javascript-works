@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/all.css" />
+    <script defer src="./js/all.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form class="overall" id="registrationForm">
+      <div>
+        <div class="header">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="names">
+          <div>
+            <label for="title">First Name</label> <br />
+            <input type="text" id="id1" required />
+            <p id="emailError" class="error hidden">This field is required</p>
+          </div>
+
+          <div>
+            <label for="title">Last Name</label><br />
+            <input type="text" id="id2" required />
+            <p id="emailError" class="error hidden">This field is required</p>
+          </div>
+        </div>
+
+        <div class="email">
+          <div>
+            <label for="title">Email Address</label><br />
+            <input type="text" id="id3" required />
+            <p id="emailError" class="error hidden">Please enter a valid email address</p>
+          </div>
+        </div>
+
+        <div class="type">
+          <div>
+            <label for="title">Query Type</label><br />
+            <div class="id11">
+              <input type="radio" name="query" id="id4" required />
+              <p>General Enquity</p>
+            </div>
+            <p id="emailError" class="error hidden">Please select a query</p>
+          </div>
+         
+          <div>
+            <label for="text" id="pitch">another</label>
+            <div class="id11">
+              <input type="radio" name="query" id="id4" required />
+              <p>Support Request</p>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="message">
+          <label for="title">Message</label><br />
+          <textarea name="" id="id6"></textarea>
+          <p id="emailError" class="error hidden">This field is require</p>
+        </div>
+      </div>
+      <div class="main">
+        <input class="btn" id="btn1" name="tick" type="checkbox" required />
+        <p>I consent to being contacted by the team</p>
+      </div>
+      <p id="emailError" class="error hidden">To submit this form, please consent to being contacted</p>
+
+      <button id="id7" onclick="formInfor()">Submit</button>
+    </form>
+
+    <!--   <div>
+      <div class="popup" id="popup">
+           <p><i class="fa-solid fa-check"></i> Message Sent !</p>
+           <p>Thanks for completing the form. We'll be in touch soon!</p>
+      </div>
+   </div>  -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
